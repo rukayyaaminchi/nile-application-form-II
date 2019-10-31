@@ -1,0 +1,136 @@
+/* selector{
+	property:value;
+}*/
+
+
+img {
+	float: left;
+}
+
+*{transition:all 0.3s ease-in-out;}
+
+.container{
+  clear:both;
+  overflow:auto;
+}
+
+nav{float:right;}
+
+.logo img{float:left;}
+
+ul li{
+  display: inline-block; padding:90px; color: blue;
+  font-size:80px; font-family:ariel; border-bottom:2px;
+}
+
+ul li:hover{
+  color:blue;
+  
+}
+
+h1 {
+	text-align-last: right;
+	cursor: pointer;
+	color: blue;
+	font-size: 250%;
+	font-family: ;	
+	width: 450px;
+	color: blue;
+	display: inline-block;
+
+}
+nav {
+	float: left;
+	color: red;
+	border-bottom: 5px  black;
+	font-size: 160%;
+	font-style: italic;
+
+
+
+}
+
+input[type=text], select, textarea {
+width: 30%;
+  padding: 30px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  font-size: 100%;
+}
+
+.select-items div,.select-selected{
+	font-size: 880%;
+	padding: 8px; 
+
+}
+
+input[placeholder]{
+	font-size: 110%
+}
+
+label {
+	padding: 12px 12px 0;
+	display: inline-block;
+}
+
+form {
+	font-size: 150%;
+	font-family: Ariel;
+	cursor: pointer;
+}
+
+
+
+button {
+	font-size: 110%;
+	font-family: georgia
+}
+
+
+}
+
+p {
+	text-align: left;
+	cursor: pointer;
+	font-size: 350%;
+	font-family: cursive;
+	color: blue;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: blue;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 6 0%;
+  opacity: 0.8;
+}
+
+input[type='radio'] {
+	transform: scale(2);
+}
+
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+<style>
+    .pb-cmnt-container {
+        font-family: vertena;
+        margin-top: 100px;
+    }
+
+    .pb-cmnt-textarea {
+    	font-size: 140%;
+        resize: none;
+        padding: 20px;
+        height: 130px;
+        width: 70%;
+        border: 1px solid #F2F2F2;
+    }
